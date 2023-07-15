@@ -1,0 +1,17 @@
+body {
+    background-color:orange
+}
+h1 {
+    background-color:rgba(255, 77, 0,0.5);
+    color:orangered;
+    font-size:60px;
+    font-family:monospace;
+    text-align:center;
+}
+h2 {
+    style="color:deeppink;
+    font-family:monospace;
+}
+p {
+    background-color: skyblue;
+}
