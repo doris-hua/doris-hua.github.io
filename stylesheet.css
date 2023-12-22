@@ -15,6 +15,9 @@ h2 {
 p {
     background-color: skyblue;
     font-family: monospace;
+
+/* Navbar style settings: */
+
 }
 ul {
     list-style-type: none;
@@ -29,6 +32,7 @@ li {
 li a {
     display: block;
     color: white;
+    font-family: monospace;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
