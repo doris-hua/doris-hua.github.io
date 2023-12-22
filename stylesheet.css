@@ -16,3 +16,11 @@ p {
     background-color: skyblue;
     font-family: monospace;
 }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+li {
+    display: inline;
+  }
