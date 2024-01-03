@@ -5,6 +5,19 @@
         <link rel="stylesheet" href="stylesheet.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
         <style>
+            .grid-container {
+                display: grid;
+                grid-template-columns: auto auto auto;
+                background-color: rgba(33, 149, 243, 0);
+                padding: 10px;
+            }
+            .grid-item {
+                background-color: rgba(0, 0, 0, 0);
+                border: 1px solid rgba(0, 0, 0, 0.8);
+                padding: 20px;
+                font-size: 30px;
+                color:white;
+            }
         </style>
     </head>
 
@@ -17,5 +30,10 @@
             <li><a href="work.html">Work</a></li>
             <li><a href="aboutme.html">About me</a></li>
         </ul>
+        <div class="grid-container">
+            <div class="grid-item">Doris Hua</div>
+            <div class="grid-item">corner of the</div>
+            <div class="grid-item">internet</div>
+        </div>
     </body>
 </html>
