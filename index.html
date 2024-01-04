@@ -5,6 +5,12 @@
         <link rel="stylesheet" href="stylesheet.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
         <style>
+            .backgroundimage {
+                background-image: url('HomeBackground.png');
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: 100%;
+            }
             .grid-container {
                 display: grid;
                 grid-template-columns: auto auto;
@@ -21,17 +27,22 @@
                 color:white;
             }
             @media screen and (max-width:600px) {
+                .backgroundimage {
+                    background-image: url('PhoneHomeBackground.png');
+                    background-repeat: no-repeat;
+                    background-attachment: fixed;
+                    background-size: 100%;
+                }
                 .grid-container {
                     grid-template-columns: auto;
+                    padding: 3%;
+                    gap: 3%;
                 }
             }
         </style>
     </head>
 
-    <body style="background-image: url('HomeBackground.png');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100%;">
+    <body class="backgroundimage">
         <ul>
             <li><a href="index.html">home</a></li>
             <li><a href="work.html">work</a></li>
