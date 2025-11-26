@@ -1,5 +1,3 @@
-
-
 const scroller = scrollama();
 
 const frames = [
