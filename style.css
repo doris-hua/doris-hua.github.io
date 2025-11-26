@@ -1,0 +1,195 @@
+
+body {
+  background-color: #EDF0DA;
+}
+h1 {
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  margin-top: 30px;
+  font-size: 3rem;
+}
+
+h2 {
+  font-family: 'Georgia';
+  text-align: center;
+  margin-top: 30px;
+  font-size: 2rem;
+}
+
+p {
+  margin-left: 30vw; /* Adjust the value for desired margin */
+  margin-right: 30vw; /* Adjust the value for desired margin */
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  color: black; /* Sets the text color of all paragraphs to blue */
+  font-size: 1.25rem; /* Sets the font size of all paragraphs to 16 pixels */
+  margin-bottom: 2.5em; /* Adds a bottom margin to separate paragraphs */
+  text-align: left;
+}
+
+.content-warning {
+  margin-left:5vw;
+  margin-right:5vw;
+  font-size:1.1rem;
+}
+
+.mainlayout {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  max-width: 100%;
+  margin: 0 auto; /* centers entire layout */
+  padding: 20px;
+}
+
+.side {
+  width: 200px; /* control photo column width */
+}
+
+.side img {
+  width: 100%;
+  display: block;
+}
+
+.text {
+  max-width: 600px;  /* width of main text column */
+  line-height: 1.6;
+}
+
+#graphic1 {width:70vw}
+#graphic2 {width:70vw}
+
+/* Container for the whole scrollytelling section */
+#scrolly {
+  display: flex;
+  width: 100%;
+  min-height: 200vh; /* ensure enough height for scrolling */
+  gap: 2rem;
+}
+
+/* Sticky graphic container */
+.scroll-graphic {
+  width: 1000px;             /* adjust width as needed */
+  position: sticky;       /* keeps iframe pinned while scrolling */
+  top: 20px;
+  left: 30px;              /* distance from top of viewport */
+  align-self: start;      /* aligns sticky container at top */
+  height: 800px;          /* match your iframe height */
+  display: flex;
+  justify-content: center;
+}
+
+#plots {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.overlay-iframe0 {
+  position: absolute; /* Allows precise positioning */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none; /* Optional: remove default iframe border */
+}
+.overlay-iframe1 {
+  position: absolute; /* Allows precise positioning */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none; /* Optional: remove default iframe border */
+}
+.overlay-iframe2 {
+  position: absolute; /* Allows precise positioning */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none; /* Optional: remove default iframe border */
+}
+
+#plot-0 {
+  opacity: 1;
+  pointer-events: auto; /* allow interaction on first one */
+}
+#plot-1 {
+  opacity: 0;
+  pointer-events: none; /* allow interaction on first one */
+}
+#plot-2 {
+  opacity: 0;
+  pointer-events: none; /* allow interaction on first one */
+}
+
+/* Story text container */
+#story {
+  width: 40%;             /* takes remaining width */
+  padding: 0rem;
+}
+
+/* Each step section */
+.step {
+  margin: 50vh 0;         /* vertical spacing to trigger Scrollama */
+  font-size: 1.2rem;
+  font-family: 'Courier New', Courier, monospace;
+  line-height: 1.5;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.wrapper {
+  display: flex;  
+  flex-flow: row wrap;
+  font-weight: bold;
+  text-align: center; 
+}
+
+.wrapper > * {
+  padding: 10px;
+  flex: 1 100%;
+}
+
+.header {
+  background: tomato;
+}
+
+.footer {
+  background: lightgreen;
+}
+
+.main {
+  text-align: left;
+  background: deepskyblue;
+}
+
+.aside-1 {
+  background: gold;
+}
+
+.aside-2 {
+  background: hotpink;
+}
+
+@media all and (min-width: 600px) {
+  .aside { flex: 1 0 0; }
+}
+
+@media all and (min-width: 800px) {
+  .main    { flex: 3 0px; }
+  .aside-1 { order: 1; } 
+  .main    { order: 2; }
+  .aside-2 { order: 3; }
+  .footer  { order: 4; }
+}
+
+body {
+  padding: 2em; 
+}

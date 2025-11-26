@@ -26,6 +26,14 @@
                 font-family: monospace;
                 color:white;
             }
+            .positioned-text{
+                position: absolute; 
+                top: 10%;
+                left: 10%; 
+                color: blue;
+                font-size: 2vw;
+                font-weight: bold;
+            }
             @media screen and (max-width:600px) {
                 .backgroundimage {
                     background-image: url('PhoneHomeBackground.png');
@@ -68,6 +76,12 @@
             <div class="grid-item"></div>
             <div class="grid-item"></div>
             <div class="grid-item">internet</div>
+        </div class="backgroundimage">
+            <p class="positioned-text">BUTTON</p>
         </div>
     </body>
 </html>
+
+<!-- Make buttons with absolute positioned text and svg files, 
+make it responsive by making all the values relative 
+-->
