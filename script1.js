@@ -15,7 +15,9 @@ let currentStep = 0;
 
 // Show first graph interactivity
 frames[0].style.opacity = 1;
+frames[3].style.opacity = 1;
 frames[0].style.pointerEvents = "auto";
+frames[3].style.pointerEvents = "auto";
 
 scroller
   .setup({
