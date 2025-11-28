@@ -3,7 +3,12 @@ const scroller = scrollama();
 const frames = [
   document.getElementById("plot-0"),
   document.getElementById("plot-1"),
-  document.getElementById("plot-2")
+  document.getElementById("plot-2"),
+  document.getElementById("plot-3"),
+  document.getElementById("plot-4"),
+  document.getElementById("plot-5"),
+  document.getElementById("plot-6"),
+  document.getElementById("plot-7"),
 ];
 
 let currentStep = 0;
