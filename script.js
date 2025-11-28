@@ -1,3 +1,5 @@
+import scrollama from 'scrollama';
+
 const scroller = scrollama();
 
 const frames = [
