@@ -41,3 +41,5 @@ scroller
   });
 
 window.addEventListener("resize", scroller.resize);
+
+console.log("poop");
