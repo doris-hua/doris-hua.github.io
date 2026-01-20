@@ -1,5 +1,5 @@
 body {
-    background-color:#e35d00;
+    background-color:#eb713b;
 }
 h1 {
     background-color:rgba(255, 77, 0,0.5);
@@ -13,7 +13,6 @@ h2 {
     font-family: monospace;
 }
 p {
-    background-color: skyblue;
     font-family: monospace;
 
 /* Navbar style settings: */
