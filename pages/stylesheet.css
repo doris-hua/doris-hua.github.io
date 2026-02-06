@@ -1,0 +1,90 @@
+body {
+    background-color:;
+    /* background-color:#eb713b; */
+}
+
+body {
+  background-color: #eb713b;
+  margin: 0;
+  min-height: 100vh;
+  transition: background-color 5.0s ease;
+  opacity: 0;
+  animation: fadeIn 0.2s ease forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+body.writing {
+  background-color: #ffb852;
+}
+
+body.audio {
+  background-color: #ffb852;
+}
+
+body.video {
+  background-color: #ffb852;
+}
+
+
+body.aboutme {
+  background-color:#008aa1;
+}
+
+body.projects {
+  background-color: #ffb852;
+}
+
+h2 {
+    color:white;
+    font-family: monospace;
+}
+p {
+    color:white;
+    font-family: monospace;
+    font-size:2vh;
+}
+p a {
+    text-decoration: none;
+    color:#3E5E4C;
+    font-family: monospace;
+    font-size:2vh;
+}
+p a:hover{
+    color:#47508B;
+    font-family: monospace;
+    font-size:2vh;
+}
+ul {
+    position: fixed;
+    top:0;
+    width:100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 1%;
+    overflow: hidden;
+    background-color: #ffffff00;
+  }
+li {
+    float: left;
+    padding: 0px 10px 0px 10px; /* top, right, bottom, left */
+  }
+li a {
+    display: block;
+    color: white;
+    font-family: monospace;
+    font-size: 2.6vh;
+    text-align: center;
+    padding: 0.1vh 0.7vh;
+    text-decoration: none;
+  }
+li a:hover {
+    color:black;
+  }
+.body {
+    padding: 5em;
+}
